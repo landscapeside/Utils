@@ -1,0 +1,6 @@
+<resources>
+  <string name="app_name">Utils</string>
+  <string name="no_intent_handler">
+    There are no applications available to handle this action.
+  </string>
+</resources>

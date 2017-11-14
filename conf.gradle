@@ -1,0 +1,35 @@
+ext {
+
+  VRxlifecycle = '1.0'
+
+  /**
+   * project version conf
+   * */
+  versionMajor = 0
+  versionMinor = 0
+  versionBuild = 1
+
+
+  compileSdkVersion = 26
+  buildToolsVersion = "26.0.2"
+  minSdkVersion = 16
+  targetSdkVersion = 23
+
+  VSupportSdk = '26.1.0'
+
+  /**
+   * general app support
+   * */
+  supportV4 = "com.android.support:support-v4:${VSupportSdk}"
+
+  /**
+   * json convert
+   * */
+  gson = 'com.google.code.gson:gson:2.6.2'
+
+  /**
+   * rx
+   * */
+  rxJava = 'io.reactivex:rxjava:1.1.5'
+  rxAndroid = 'io.reactivex:rxandroid:1.2.0'
+}
