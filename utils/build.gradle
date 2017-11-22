@@ -29,9 +29,9 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile rootProject.ext.gson
+    provided rootProject.ext.gson
     //rxjava
-    compile rootProject.ext.rxJava
-    compile rootProject.ext.rxAndroid
-    compile rootProject.ext.supportV4
+    provided rootProject.ext.rxJava
+    provided rootProject.ext.rxAndroid
+    provided rootProject.ext.supportV4
 }
